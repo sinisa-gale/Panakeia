@@ -62,7 +62,7 @@ header .header-cont nav a:hover {
 
 /*---MAIN---*/
 main {
-	background: url(../images/main-bg.jpg) no-repeat;
+	background: url(../images/header.jpg) no-repeat;
 	background-position: center;
 	height: 1321px;
 }
@@ -183,7 +183,7 @@ main a:hover {
 
 /*---NEWSLETTER---*/
 .newsletter {
-	background: url(../images/newsletter-bg.jpg);
+	background: url(../images/burger.jpg);
 	background-position: center;
 	height: 383px;
 	clear: both;
@@ -325,7 +325,7 @@ footer .footer-top-cont div a:hover {
 }
 footer .footer-bottom {
   height: 375px;
-  background: url(../images/newsletter-bg.jpg);
+  background: url(../images/burger.jpg);
   background-position: center;
   text-align: center;
 }
