@@ -171,16 +171,16 @@
 		margin-top: 10px;
 		padding: 15px 50px;
 	}
-	.newsletter__email {
+	.newsletter .newsletter-cont input {
 		margin: 30px 0;
 		padding: 0 35px;
 		width: 70%;
 	}
-	.newsletter__button {
+	.newsletter .newsletter-cont button {
 		margin: 0 auto;
 		padding: 10px 50px;
 	}
-	.newsletter__header {
+	.newsletter .newsletter-cont h2 {
 		margin-top: 25px;
 	}
 	footer .footer-bottom p {

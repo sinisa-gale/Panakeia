@@ -61,7 +61,57 @@ header .header-cont nav a:hover {
 }
 
 /*---NEWSLETTER---*/
-
+.newsletter {
+	background: url(../images/newsletter-bg.jpg);
+	background-position: center;
+	height: 383px;
+}
+.newsletter .newsletter-cont {
+	margin: auto;
+	max-width: 535px;
+	color: #FFF;
+	text-align: center;
+}
+.newsletter .newsletter-cont h2 {
+	display: inline-block;
+	line-height: 50px;
+	margin-top: 75px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.newsletter .newsletter-cont p {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+}
+.newsletter .newsletter-cont input {
+	max-width: 225px;
+	height: 50px;
+	padding-left: 35px;
+	padding-right: 70px;
+	border: 1px solid #CCCCCD;
+	border-radius: 50px;
+	background: transparent;
+	color: #EEEEF0;
+}
+.newsletter .newsletter-cont input:focus {
+	outline: none;
+}
+.newsletter .newsletter-cont button {
+	cursor: pointer;
+	display: inline-block;
+	margin-left: -50px;
+	margin-top: 70px;
+	padding: 14px 75px 16px 75px;
+	border: 1px solid #CCCCCD;
+	border-radius: 50px;
+	background: #FFF;
+	font-size: 18px;
+	color: #612316;
+}
+.newsletter .newsletter-cont button:hover {
+	color: #DD4B2B;
+}
 
 /*---FOOTER---*/
 footer .footer-top {
