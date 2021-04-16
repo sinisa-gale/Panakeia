@@ -1,9 +1,9 @@
 @media screen and (max-width: 1300px) {
-	.main__header {
-		margin-top: 300px;
-	}
-	.main__wrapper {
+	main {
 		height: 1200px;
+	}
+	main .main-header {
+		margin-top: 300px;
 	}
 }
 @media screen and (max-width: 992px) {
@@ -13,16 +13,16 @@
 	header .header-cont nav a {
 		padding: 18px 13px;
 	}
-	.main__header {
+	main .main-header {
 		margin-top: 250px;
 	}
-	.main__header-top {
+	main .main-header h1 {
 		font-size: 60px;
 	}
-	.main__header-bottom {
+	main .main-header span {
 		font-size: 25px;
 	}
-	.main__item-text {
+	main .main-items .item p:nth-child(3) {
 		max-width: 70%;
 	}
 	.info .info-item div a {
@@ -46,37 +46,37 @@
 	header .header-logo {
 		margin-left: 10px;
 	}
-	.main__wrapper {
+	main {
 		height: 1321px;
 	}
-	.main__header {
+	main .main-header {
 		margin-top: 50px;
 	}
-	.main__header-top {
+	main .main-header h1 {
 		font-size: 50px;
 	}
-	.main__header-bottom {
+	main .main-header span {
 		font-size: 20px;
 	}
-	.main__items {
+	main .main-items {
 		margin-top: 50px;
+		display: block;
 	}
-	.main__item {
-		float: none;
+	main .main-items .item {
 		margin: auto;
 		padding-bottom: 20px;
 		width: 100%;
 	}
-	.main__item-pic {
+	main .main-items .item img {
 		width: 120px;
 	}
-	.main__item-header {
+	main .main-items .item p:nth-child(2) {
 		font-size: 25px;
 	}
-	.main__item-text {
+	main .main-items .item p:nth-child(3) {
 		line-height: 25px;
 	}
-	.main__button {
+	main a {
 		margin-top: 50px;
 	}
 	.news .news-cont div {
@@ -118,7 +118,7 @@
 		width: 60%;
 	}
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:700px) {
   header .header-cont {
     height: auto;
   }
@@ -155,19 +155,19 @@
 	}
 }
 @media screen and (max-width: 480px) {
-	.main__header-top {
+	main .main-header h1 {
 		font-size: 40px;
 	}
-	.main__header-bottom {
+	main .main-header span {
 		font-size: 15px;
 	}
-	.main__item-pic {
+	main .main-items .item img {
 		width: 100px;
 	}
-	.main__item-text {
+	main .main-items .item p:nth-child(3) {
 		line-height: 19px;
 	}
-	.main__button {
+	main a {
 		margin-top: 10px;
 		padding: 15px 50px;
 	}
