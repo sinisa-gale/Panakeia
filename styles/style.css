@@ -60,11 +60,66 @@ header .header-cont nav a:hover {
   color: #FFF;
 }
 
+/*---NEWS---*/
+.news {
+	max-width: 1170px;
+	margin: auto;
+	color: #31353E;
+	border-bottom: 1px solid transparent;
+}
+.news h2 {
+	margin-top: 82px;
+	margin-bottom: 82px;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+}
+.news .news-cont div {
+	float: left;
+	text-align: center;
+	width: 30%;
+}
+.news .news-cont div:nth-child(2) {
+	margin: 0 29px;
+}
+.news .news-cont div img {
+	padding-bottom: 30px;
+	max-width: 100%
+}
+.news .news-cont div p:nth-child(2) {
+	display: block;
+	font-size: 24px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #31353E;
+}
+.news .news-cont div p:nth-child(3) {
+	margin: auto;
+	margin-bottom: 30px;
+	max-width: 290px;
+	line-height: 30px;
+	font-weight: 300;
+	font-size: 15px;
+}
+.news .news-cont div a {
+	display: inline-block;
+	padding: 20px 56px;
+	margin-bottom: 50px;
+	color: #4E5159;
+	background: #FFF;
+	border-radius: 40px;
+	font-size: 15px;
+}
+.news .news-cont div a:hover {
+	color: #DD4B2B;
+}
+
 /*---NEWSLETTER---*/
 .newsletter {
 	background: url(../images/newsletter-bg.jpg);
 	background-position: center;
 	height: 383px;
+	clear: both;
 }
 .newsletter .newsletter-cont {
 	margin: auto;

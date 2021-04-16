@@ -79,11 +79,11 @@
 	.main__button {
 		margin-top: 50px;
 	}
-	.news__item {
+	.news .news-cont div {
 		float: none;
 		width: 100%;
 	}
-	.news__item--margin {
+	.news .news-cont div:nth-child(2) {
 		margin: 0;
 	}
 	.info__item-details {
