@@ -5,7 +5,7 @@ a, img, form, footer, header, nav, section {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	vertical-align: baseline;
 	text-decoration: none;
 }
@@ -168,7 +168,64 @@ header .header-cont nav a:hover {
 	color: #DD4B2B;
 }
 
+/*---INFO---*/
+.info {
+	max-width: 1170px;
+	margin: auto;
+}
+.info .info-item {
+	margin-top: 65px;
+}
+.info .info-item div {
+	float: left;
+	width: 48%;
+	padding-left: 10px;
+	color: #191B29;
+}
+.info .info-item:last-child div {
+	float: right;
+}
+.info .info-item img {
+	width: 48%;
+	border-radius: 5px;
+}
+.info .info-item a {
+	display: none;
+	margin-top: 20px;
+	padding: 18px 77px;
+	border-radius: 35px;
+	background: #DD4B2B;
+	color: #FFF;
+}
+.info .info-item:last-child a {
+	background: #4B4E73;
+}
+.info .info-item div h2 {
+	line-height: 60px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.info .info-item div p {
+	max-width: 565px;
+	padding-right: 60px;
+	line-height: 35px;
+}
+.info .info-item div a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 18px 77px;
+	border-radius: 35px;
+	background: #DD4B2B;
+	color: #FFF;
+}
+.info .info-item:last-child div a {
+		background: #4B4E73;
+}
+
 /*---FOOTER---*/
+footer {
+	clear: both;
+}
 footer .footer-top {
 	margin-top: 90px;
 	padding: 95px 0;

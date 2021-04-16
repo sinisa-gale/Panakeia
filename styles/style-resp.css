@@ -25,14 +25,14 @@
 	.main__item-text {
 		max-width: 70%;
 	}
-	.info__item-button {
+	.info .info-item div a {
 		display: none;
 	}
-	.info__item-button--hidden {
+	.info .info-item a {
 		display: inline-block;
 		margin-top: 40px;
 	}
-	.info__item-text {
+	.info .info-item div p {
 		line-height: 40px;
 	}
 	footer .footer-bottom p {
@@ -86,29 +86,29 @@
 	.news .news-cont div:nth-child(2) {
 		margin: 0;
 	}
-	.info__item-details {
+	.info .info-item div, .info .info-item:last-child div {
 		float: none;
 		width: 90%;
 		text-align: center;
 	}
-	.info__item-heading {
+	.info .info-item div h2 {
 		display: block;
 		margin: auto;
 		width: 80%;
 	}
-	.info__item-text {
+	.info .info-item div p {
 		padding: 0 10px;
 		margin: auto;
 		width: 90%;
 	}
-	.info__item-pic {
+	.info .info-item img {
 		display: block;
 		margin: auto;
 		padding-bottom: 20px;
 		padding-top: 20px;
 		width: 90%;
 	}
-	.info__item-button--hidden {
+	.info .info-item a {
 		display: block;
 		width: 30%;
 		text-align: center;
